@@ -1,0 +1,3 @@
+module RubyEmail
+  
+end
