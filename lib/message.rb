@@ -1,6 +1,6 @@
 module RubyEmail
   class Message < Base
-    attr_accessor :header_fiels, :body, :preamble, :epilogue
+    attr_accessor :header_fields, :body, :preamble, :epilogue
     
     #
     #
