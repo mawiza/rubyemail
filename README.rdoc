@@ -4,6 +4,7 @@
 
 == DESCRIPTION:
 
+Note: This code is under developement and not functional as of yet.
 rubyemail is an email parser that parse then unmarshal an email message into message, body, bodyparts and headerfield ruby objects.
 
 == FEATURES/PROBLEMS:
