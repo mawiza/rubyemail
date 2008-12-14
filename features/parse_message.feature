@@ -5,13 +5,12 @@ Feature: parse message
 
   Scenario: Parse email
 	When an email is received
-	Given it is a valid
-	Then parse the email with regular expressions
+	Then parse the email
 	
   Scenario: Split Email
 	When the first CRLF is encountered preceded by nothing
 	Then split the email
-	And save as a header 
+	And save as a header object
 	And save as a body object
 	
   Scenario: Map header fields
@@ -19,7 +18,7 @@ Feature: parse message
 	Then unfold 
 	And map the headers into header names and bodies
 	
-  Scenario: Map the body
+  Scenario: Map the body and body parts
 	When mapping the body
 	Given it is a multipart message as specified in the header fields
 	Then map into body parts
