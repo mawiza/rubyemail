@@ -1,2 +1,0 @@
-
-For more information on rubyemail, see http://rubyemail.rubyforge.org
