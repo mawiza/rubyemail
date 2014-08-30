@@ -1,0 +1,5 @@
+From: Nathaniel Borenstein <nsb@bellcore.com>
+To: Ned Freed <ned@innosoft.com>
+Subject: A multipart example
+Content-Type: multipart/mixed;
+   boundary=unique-boundary-1

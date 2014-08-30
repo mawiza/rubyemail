@@ -1,5 +1,7 @@
 require "rubyemail/version"
 
-module Rubyemail
-  # Your code goes here...
+module RubyEmail
+  class Base  
+    attr_accessor :raw
+  end
 end

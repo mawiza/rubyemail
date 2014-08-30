@@ -1,6 +1,6 @@
 # Rubyemail
 
-TODO: Write a gem description
+Ruby email parser - unmarshals an email message into message, body, bodyparts and headerfield objects
 
 ## Installation
 
@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+TODO: ...
 
 ## Contributing
 
