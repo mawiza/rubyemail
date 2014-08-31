@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Komodo Project File - DO NOT EDIT -->
 <project id="b1ae127a-c330-4a81-b88b-fb7d5357fee3" kpf_version="5" name="rubyemail.komodoproject">
+<preference-set idref="b1ae127a-c330-4a81-b88b-fb7d5357fee3" id="project" preftype="project">
+<preference-set id="testPlans">
+<preference-set id="rubyemail">
+  <string id="command_line"></string>
+  <string relative="url" id="directory"></string>
+  <string id="language">Ruby - Rake tests</string>
+</preference-set>
+</preference-set>
+</preference-set>
 </project>
