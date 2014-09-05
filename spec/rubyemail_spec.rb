@@ -22,14 +22,15 @@ describe RubyEmail::MessageParser do
       expect(message_parser.message.body.raw).to eq(message_body)
     end
     
-    context "unfold and map the header fields" do
-      it "unfold the header fields" do
-        message_parser = RubyEmail::MessageParser.new(message)        
-        message_parser.parse
-        expect(message_parser.message.header_fields.fields.length).to eq(4)
-      end
+    
+    it "should unfold and map the header fields" do
+      message_parser = RubyEmail::MessageParser.new(message)        
+      message_parser.parse
+      expect(message_parser.message.header_fields.fields.length).to eq(4)
     end
     
-    
+    it "should map the body" do
+      pending
+    end
   end
 end
